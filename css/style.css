@@ -638,7 +638,7 @@ button:focus{
 	-moz-transition: all 0.3s ease-in-out;
 }
 .gallery-box ul li a .overlay{
-	background: #dd666c;
+	background: rgb(218,165,32); 
 	color: #ffffff;
 	font-size: 22px;
 	text-align: center;
@@ -646,6 +646,7 @@ button:focus{
 	height: 38px;
 	display: inline-block;
 	position: absolute;
+	border-radius: 5px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
